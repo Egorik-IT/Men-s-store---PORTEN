@@ -1,0 +1,1413 @@
+body{
+    font-family: 'PT Sans', 'Post No Bills Jaffna', 'Playfair Display' ;
+    font-size: 12px;
+    font-weight: 400;
+    overflow-x: hidden;
+    background: #000000;
+}
+.header {
+    width: 100%;
+}
+.block__header__one {
+    background: #000000;
+    width: 100%;
+    font-family: 'PT Sans';
+    display: flex;
+    justify-content: center;
+    padding: 14px 0px 14px 0px;
+}
+.information__and__login__container {
+    display: flex;
+    flex-direction: row;
+    width: 1116px;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+}
+.time__information__and__contact__information__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.png__telephone img {
+    max-width: 16px;
+    margin: 0px 15px 0px 0px;
+}
+.contact__information {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #969696;
+    transition: 0.4s;
+}
+.contact__information:hover {
+    color: #FFFFFF;
+}
+.horizontal__line {
+    margin: 0px 0px 0px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #969696;
+}
+.time__information {
+    margin: 0px 0px 0px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #969696;
+}
+.working__hours {
+    margin: 0px 0px 0px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #969696;
+}
+.login__information__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.png__login img {
+    max-width: 14px;
+    margin: 0px 10px 0px 0px;
+}
+.login__and__registration{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #969696;
+    transition: 0.4s;
+}
+.login__and__registration:hover {
+    color: #FFFFFF;
+}
+.block__header__two {
+    background: #0F0F0F;
+    width: 100%;
+    font-family: 'PT Sans';
+    display: flex;
+    justify-content: center;
+}
+.logo__and__navigation__buttons__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1116px;
+    margin: 0px 20px 0px 20px;
+}
+.logo__text {
+    font-size: 36px;
+    font-family: 'Post No Bills Jaffna';
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.three__navigation__buttons__and__container__basket__png__and__search__png{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.three__navigation__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.liked__it__buttons, .personal__account__buttons, .settings__buttons {
+    color: #969696;
+    padding: 31px 20px 31px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.liked__it__buttons:hover, .personal__account__buttons:hover, .settings__buttons:hover {
+    color: #FFFFFF;
+    background: #1F1F1F;
+}
+.container__basket__png__and__search__png__block__none{
+    display: none;
+}
+.container__basket__png__and__search__png {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 40px;
+}
+.basket__png {
+    margin: 0px 17px 0px 0px;
+    transition: 0.4s;
+}
+.search__png {
+    margin: 0px 0px 0px 17px;
+    transition: 0.4s;
+}
+.basket__png:hover, .search__png:hover {
+    opacity: 0.6;
+}
+
+.conteiner__block__one {
+    background: url(../img/first__photo__PORTEN.jpg) no-repeat center;
+    background-size: 1920px 810px;
+    height: 810px;
+    width: 100%;
+    font-family: 'PT Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square__porten__logo {
+    max-width: 320px;
+    max-height: 320px;
+    padding: 109.5px 69px 109.5px 69px;
+    border: 4px solid #FFFFFF;
+}
+.logo__text__porten {
+    font-size: 64px;
+    font-family: 'Post No Bills Jaffna';
+    color: #FFFFFF;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #FFFFFF;
+    text-transform: uppercase;
+}
+.saint-petersburg__text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20.9px;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 7px 0px 0px 0px;
+    text-transform: uppercase;
+}
+.text__loerm__block__one {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 730px;
+    margin: 80px 0px 0px 0px;
+    text-transform: uppercase;
+}
+.conteiner__block__two__row__1{
+    display: flex;
+    justify-content: space-between;
+}
+.season__2020_21__conteiner {
+    font-family: 'Playfair Display';
+    margin: 93px auto 0px auto;
+}
+.season__2020_21__conteiner a{
+    max-width: 260px;
+}
+.season__2020_21__text{
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+.season__2020_21__text::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.grid__conteiner__product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    max-width: max-content;
+    margin: 50px 20px 0px 0px;
+    gap: 50px;
+}
+.conteiner__product {
+    max-width: max-content;
+}
+.conteiner__product img {
+    transition: 1.6s;
+}
+.conteiner__product img:hover {
+    transform: scale(1.2);
+}
+.picture__product {
+    max-width: 260px;
+    padding: 55px 22px;
+    background: #191B1C;
+}
+.product-watch__png{
+    max-width: 215px;
+}
+.description__of__product {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21px;
+    margin: 25px 0px 0px 0px;
+}
+.price__product {
+    font-size: 16px;
+    color: #D0D0D0;
+    line-height: 21px;
+    margin: 10px 0px 0px 0px;
+}
+.new__collection__conteiner {
+    max-width: 880px;
+    background: url(../img/two__photo__PORTEN.jpg) no-repeat center;
+    background-size: 880px 730px;
+    height: 730px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: 'Playfair Display';
+}
+.new__collection__text {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    padding: 0px 0px 30px 0px;
+}
+.new__collection__text::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.catalog__button{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'PT Sans';
+    letter-spacing: 0.1em;
+    padding: 12px 28px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    max-width: max-content;
+    transition: 0.4s;
+    margin: 30px auto 100px auto;
+}
+.catalog__button:hover {
+    cursor: pointer;
+    color: #191B1C;
+    background: #FFFFFF;
+}
+.conteiner__block__two__row__2 {
+    display: flex;
+    flex-direction: row;
+}
+.third__picture__of__the__two__section__conteiner {
+    background: url(../img/third__photo__PORTEN.jpg) no-repeat center;
+    background-size: 880px 600px;
+    width: 880px;
+    height: 600px;
+    width: 100%;
+}
+.collection__2018__conteiner {
+    width: 100%;
+    height: 100%;
+    max-width: 1040px;
+    height: 600px;
+    font-family: 'PT Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection__2018__text__conteiner {
+    display: flex;
+    flex-direction: column;
+}
+.collection__2018__title {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    padding: 0px 0px 40px 0px;
+}
+.collection__2018__title::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.collection__2018__text {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    max-width: 471px;
+    margin: 40px 0px 0px 0px;
+}
+.view__collection {
+    padding: 12px 28px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    max-width: max-content;
+    margin: 60px auto 0px auto;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    background: #000;
+    transition: 0.4s;
+}
+.view__collection:hover {
+    color: #000;
+    background: #FFFFFF;
+}
+
+.conteiner__block__three {
+    font-family: 'Playfair Display';
+    padding: 120px 0px 150px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new__arrivals {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    position: relative;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 0px 0px 40px 0px;
+}
+.new__arrivals::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.grid__conteiner__product__two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: max-content;
+    margin: 50px 20px 0px 20px;
+    gap: 23px;
+}
+.conteiner__block__four {
+    font-family: 'Playfair Display';
+    padding: 60px 0px 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0F0F0F;
+}
+.our__brands {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0px 0px 40px 0px;
+}
+.our__brands::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.grid__container__companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 40px 0px 0px 0px;
+    gap: 30px;
+    max-width: max-content;
+}
+.company__image {
+    max-width: 255px;
+}
+.footer__container__block__one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 0px 101px 0px;
+    background: url(../img/four__photo__PORTEN.jpg) no-repeat center;
+    background-size: 1920px 400px;
+    max-height: 400px;
+    font-family: 'PT Sans';
+}
+.footer__container__block__one::-webkit-scrollbar{
+    width: 0px;
+}
+.footer__container__block__one__contant{
+    display: flex;
+    max-width: 1110px;
+}
+.container__about__the__store {
+    display: flex;
+    flex-direction: column;
+}
+.about__the__store__title {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container__about__the__store__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    max-width: 350px;
+    color: #FFFFFF;
+    margin: 40px 0px 0px 0px;
+}
+.category__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 32px;
+}
+.category__title {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.flex__category__buttons__container {
+    margin: 40px 0px 0px 0px;
+    max-width: 298px; 
+}
+.first__three__buttons{
+    display: flex;
+    flex-direction: row;
+}
+.last__two__buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+.watches__buttons, .bracelets__buttons, .belts__buttons, .jewelry__buttons, .cufflinks__buttons {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 10px 20px;
+    background: #0F0F0F;
+    color: #D0D0D0;
+    max-width: max-content;
+    margin: 0px 20px 0px 0px;
+    transition: 0.4s;
+}
+.watches__buttons:hover, .bracelets__buttons:hover, .belts__buttons:hover,
+.jewelry__buttons:hover, .cufflinks__buttons:hover {
+    color: #0F0F0F;
+    background: #D0D0D0;
+}
+.mailing__list__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 80px;
+}
+.mailing__list__title {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.mailing__list__text {
+    margin: 40px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    max-width: 350px;
+    color: #FFFFFF;
+}
+.your__mail__and__subscribe__buttons__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 37px 0px 0px 0px;
+}
+.your__mail__container {
+    padding: 12px 15px;
+    background: #FFFFFF66;
+    max-width: 210px;
+}
+.your__mail {
+    max-width: 210px;
+    max-height: 42px;
+    font-size: 14px;
+    font-weight: 400;
+    background: #ffffff00;
+    color: #FFFFFF;
+}
+::-webkit-input-placeholder{
+    color: #969696;
+}
+.subscribe__buttons {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10.5px 20px;
+    background: #0F0F0F;
+    max-width: max-content;
+    transition: 0.4s;
+}
+.subscribe__buttons:hover {
+    color: #0F0F0F;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+.footer__container__block__two {
+    padding: 17px 0px;
+    background: #0F0F0F;
+}
+.all__rights__reserved__contant{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.all__rights__reserved__text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #D0D0D0;
+    margin: 0px 0px 0px 20px;
+}
+.made__by__figma__info__text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #D0D0D0;
+    max-width: 1110px;
+    margin: 0px 20px 0px 0px;
+}
+
+.popup__for__login {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+}
+.popup__area__login {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.popup__area__registration {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.popup__body {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+.popup__content__login {
+    width: 100%;
+    background: #FFFFFF;
+    color: #000000;
+    max-width: 600px;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.6s;
+    transform: perspective(600px) translate(0px, -300%) rotate(45deg);
+}
+.popup__close__button__login{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-weight: bold;
+    color: #191B1C;
+    transition: 0.4s;
+}
+.popup__close__button__login:hover {
+    cursor: pointer;
+    color: #000000;
+}
+.popup__title {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 30px 30px 0px 30px;
+    border-bottom: #969696 1px solid;
+    padding: 0px 0px 10px 0px;
+}
+.user__input__container {
+    max-width: max-content;
+    margin: 40px auto;
+    border: 1px solid #969696;
+    position: relative;
+}
+.user__input {
+    width: 200px;
+    height: 20px;
+    color: #191B1C;
+    font-size: 16px;
+    margin: 10px 34px;
+}
+.user__input__container::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background: url(../img/user.png) no-repeat;
+    background-size: 25px 25px;
+    left: 5px;
+    top: 8px;
+}
+.password__input__container {
+    max-width: max-content;
+    margin: 40px auto;
+    border: 1px solid #969696;
+    position: relative;
+}
+.password__input {
+    width: 200px;
+    height: 20px;
+    color: #191B1C;
+    font-size: 16px;
+    margin: 10px 34px;
+}
+.password__input__container::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background: url(../img/pencil.png) no-repeat;
+    background-size: 25px 25px;
+    left: 5px;
+    top: 8px;
+}
+
+.no__account__button{
+    font-weight: 400;
+    font-size: 18px;
+    color: #191B1C;
+    text-align: center;
+    transition: 0.4s;
+}
+.no__account__button:hover{
+    color: #000000;
+}
+.authorization__button{
+    font-size: 26px;
+    font-weight: 500;
+    color: #191B1C;
+    border: 2px solid #191B1C;
+    max-width: max-content;
+    padding: 8px 24px;
+    margin: 40px auto;
+    transition: 0.4s;
+}
+.authorization__button:hover{
+    background: #191B1C;
+    color: #FFFFFF;
+}
+
+
+.popup__for__registration {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+}
+.popup__body {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+.popup__content__registration {
+    width: 100%;
+    background: #FFFFFF;
+    color: #000000;
+    max-width: 600px;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.6s;
+}
+.popup__close__button__registration{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-weight: bold;
+    color: #191B1C;
+    transition: 0.4s;
+}
+.popup__close__button__registration:hover {
+    cursor: pointer;
+    color: #000000;
+}
+.popup__title {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 30px 30px 0px 30px;
+    border-bottom: #969696 1px solid;
+    padding: 0px 0px 10px 0px;
+}
+.user__input__container {
+    max-width: max-content;
+    margin: 40px auto;
+    border: 1px solid #969696;
+    position: relative;
+}
+.user__input {
+    width: 200px;
+    height: 20px;
+    color: #191B1C;
+    font-size: 16px;
+    margin: 10px 34px;
+}
+.user__input__container::before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background: url(../img/user.png) no-repeat;
+    background-size: 25px 25px;
+    left: 5px;
+    top: 8px;
+}
+.mail__input__container {
+    max-width: max-content;
+    margin: 40px auto;
+    border: 1px solid #969696;
+    position: relative;
+}
+.mail__input {
+    width: 200px;
+    height: 20px;
+    color: #191B1C;
+    font-size: 16px;
+    margin: 10px 34px;
+}
+.mail__input__container::before {
+    content: "";
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    background: url(../img/mail.png) no-repeat;
+    background-size: 25px 20px;
+    left: 5px;
+    top: 10px;
+}
+
+.there__is__an__account__button{
+    font-weight: 400;
+    font-size: 18px;
+    color: #191B1C;
+    text-align: center;
+    transition: 0.4s;
+}
+.there__is__an__account__button:hover{
+    color: #000000;
+}
+.registration__button{
+    font-size: 26px;
+    font-weight: 500;
+    color: #191B1C;
+    border: 2px solid #191B1C;
+    max-width: max-content;
+    padding: 8px 24px;
+    margin: 40px auto;
+    transition: 0.4s;
+}
+.registration__button:hover{
+    background: #191B1C;
+    color: #FFFFFF;
+}
+@media (max-width:1820px) {
+    .grid__conteiner__product {
+        grid-template-columns: 1fr 1fr;
+    }
+    .conteiner__product {
+        margin: 0px 0px 50px 0px;
+    }
+}
+@media (max-width: 1150px) {
+    .conteiner__block__two{
+        margin: 0px 20px;
+    }
+    .conteiner__block__two__row__1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .conteiner__block__two__row__2{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .third__picture__of__the__two__section__conteiner {
+        margin: 0 auto;
+    }
+    .new__collection__conteiner {
+        margin: 0 auto;
+    }
+    .grid__conteiner__product {
+        grid-template-columns: 1fr;
+    }
+    .grid__conteiner__product__two {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid__container__companies {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer__container__block__one__contant{
+        flex-direction: column;
+        max-width: 820px;
+    }
+    .category__container{
+        margin: 50px 0px 0px 0px;
+    }
+    .mailing__list__container {
+        margin: 50px 0px 0px 0px;
+    }
+    .season__2020_21__text{
+        font-size: 28px;
+    }
+    .season__2020_21__text::before {
+        width: 100px;
+    }
+    .grid__conteiner__product{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grid__conteiner__product, .grid__conteiner__product__two {
+        gap: 30px;
+    }
+    .picture__product img {
+        max-width: 170px;
+    }
+    .description__of__product {
+        font-size: 16px;
+    }
+    .price__product {
+        font-size: 14px;
+    }
+    .new__arrivals {
+        font-size: 28px;
+    }
+    .new__arrivals::before {
+        width: 100px;
+    }
+    .new__collection__text {
+        font-size: 28px;
+    }
+    .new__collection__text::before {
+        width: 100px;
+    }
+    .our__brands {
+        font-size: 28px;
+    }
+    .our__brands::before {
+        width: 100px;
+    }
+    .catalog__button {
+        font-size: 16px;
+    }
+    .footer__container__block__one {
+        overflow: scroll;
+    }
+    .collection__2018__title {
+        font-size: 28px;
+    }
+    .collection__2018__title::before {
+        width: 100px;
+    }
+    .collection__2018__text {
+        font-size: 12px;
+        max-width: 600px;
+    }
+    .collection__2018__conteiner {
+        max-width: none;
+    }
+    .view__collection {
+        padding: 11px 26px;
+        font-size: 16px;
+    }
+    .all__rights__reserved__contant{
+        max-width: 820px;
+    }
+}
+@media (max-width: 850px) {
+    .company__image {
+        max-width: 220px;
+    }
+    .grid__container__companies {
+        gap: 24px;
+    }
+    .footer__container__block__one__contant{
+        column-gap: 152px;
+    }
+    .container__about__the__store__text{
+        font-size: 11px;
+    }
+    .mailing__list__container {
+        font-size: 11px;
+    }
+    .all__rights__reserved__contant{
+        max-width: 708px;
+    }
+}
+@media (max-width: 770px){
+    .logo__text {
+        font-size: 32px;
+    }
+    .liked__it__buttons, .personal__account__buttons, .settings__buttons {
+        font-size: 12px;
+    }
+    .square__porten__logo {
+        max-width: 240px;
+        max-height: 240px;
+        padding: 80px 49px 80px 49px;
+    }
+    .logo__text__porten {
+        font-size: 48px;
+    }
+    .saint-petersburg__text {
+        font-size: 15px;
+    }
+    .text__loerm__block__one {
+        font-size: 14px;
+        max-width: 530px;
+    }
+    .grid__conteiner__product{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid__conteiner__product__two{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid__container__companies{
+        grid-template-columns: 1fr 1fr;
+    }
+    .all__rights__reserved__contant{
+        max-width: 464px;
+    }
+    .picture__product img{
+        max-width: 170px;
+    }
+    .conteiner__product img:hover {
+        transform: scale(1.25);
+    }
+    .season__2020_21__text{
+        font-size: 24px;
+    }
+    .season__2020_21__text::before {
+        width: 80px;
+    }
+    .new__arrivals {
+        font-size: 24px;
+    }
+    .new__arrivals::before {
+        width: 80px;
+    }
+    .collection__2018__title {
+        font-size: 24px;
+    }
+    .collection__2018__title::before {
+        width: 80px;
+    }
+    .our__brands {
+        font-size: 24px;
+    }
+    .our__brands::before {
+        width: 80px;
+    }
+    .description__of__product {
+        font-size: 14px;
+    }
+    .price__product {
+        font-size: 12px;
+    }
+    .view__collection {
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+    .about__the__store__title {
+        font-size: 20px;
+    }
+    .category__title {
+        font-size: 20px;
+    }
+    .mailing__list__title {
+        font-size: 20px;
+    }
+    .container__about__the__store__text{
+        font-size: 10px;
+    }
+    .mailing__list__text {
+        max-width: 250px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 650px){
+    .information__and__login__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .png__telephone img{
+        margin: 0px 5px 0px 0px;
+    }
+    .login__information__container {
+        margin: 20px 0px 0px 0px;
+    }
+    .three__navigation__buttons {
+        flex-direction: column;
+    }
+    .logo__and__navigation__buttons__conteiner {
+        flex-direction: column;
+    }
+    .three__navigation__buttons__and__container__basket__png__and__search__png {
+        flex-direction: column;
+    }
+    .container__basket__png__and__search__png{
+        margin: 0;
+    }
+    .porten__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .container__basket__png__and__search__png{
+        display: none;
+    }
+    .container__basket__png__and__search__png__block__none{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 40px;
+    }
+    .liked__it__buttons, .personal__account__buttons, .settings__buttons {
+        width: 100vw;
+        text-align: center;
+        font-size: 14px;
+        padding: 31px 0px;
+    }
+    .square__porten__logo {
+        max-width: 200px;
+        max-height: 200px;
+        padding: 66px 42px 66px 42px;
+    }
+    .text__loerm__block__one {
+        font-size: 12px;
+        max-width: 430px;
+    }
+    .logo__text__porten {
+        font-size: 38px;
+    }
+    .saint-petersburg__text {
+        font-size: 13px;
+    }
+    .collection__2018__text {
+        font-size: 11px;
+        max-width: 350px;
+    }
+    .view__collection {
+        padding: 9px 20px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 500px){
+    .contact__information {
+        font-size: 11.5px;
+    }
+    .time__information {
+        font-size: 11.5px;
+    }
+    .login__and__registration {
+        font-size: 11.5px;
+    }
+    .working__hours {
+        font-size: 11.5px;
+    }
+    .png__login img {
+        max-width: 13px;
+    }
+    .png__telephone img {
+        max-width: 13px;
+    }
+    .logo__text {
+        font-size: 28px;
+    }
+    .square__porten__logo {
+        max-width: 140px;
+        max-height: 140px;
+        padding: 42px 23px 42px 23px;
+    }
+    .logo__text__porten {
+        font-size: 28px;
+    }
+    .saint-petersburg__text {
+        font-size: 10px;
+    }
+    .new__collection__text {
+        font-size: 24px;
+    }
+    .text__loerm__block__one {
+        font-size: 10px;
+        max-width: 330px;
+    }
+    .grid__container__companies {
+        grid-template-columns: 1fr;
+    }
+    .about__the__store__title {
+        font-size: 16px;
+    }
+    .category__title {
+        font-size: 16px;
+    }
+    .mailing__list__title {
+        font-size: 16px;
+    }
+    .container__about__the__store__text{
+        max-width: 260px;
+        font-size: 8px;
+    }
+    .mailing__list__text {
+        max-width: 180px;
+        font-size: 8px;
+    }
+    .watches__buttons, .bracelets__buttons, .belts__buttons, .jewelry__buttons, .cufflinks__buttons {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+    .all__rights__reserved__text {
+        font-size: 8px;
+    }
+    .made__by__figma__info__text {
+        font-size: 8px;
+    }
+}
+@media (max-width: 510px){
+    .picture__product img{
+        max-width: 120px;
+    }
+}
+@media (max-width: 416px){
+    .time__information__and__contact__information__container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact__information {
+        font-size: 13px;
+    }
+    .time__information {
+        font-size: 13px;
+    }
+    .working__hours {
+        font-size: 13px;
+    }
+    .logo__text {
+        font-size: 24px;
+    }
+    .basket__png img{
+        width: 18px; 
+    }
+    .search__png img{
+        width: 18px; 
+    }
+    .liked__it__buttons, .personal__account__buttons, .settings__buttons {
+        font-size: 14px;
+    }
+    .text__loerm__block__one {
+        font-size: 12px;
+        max-width: 270px;
+    }
+    .catalog__button {
+        font-size: 12px;
+        padding: 10px 24px;
+    }
+    .picture__product img {
+        max-width: 150px;
+    }
+    .conteiner__product {
+        max-width: max-content;
+    }
+    .description__of__product {
+        font-size: 15px;
+    }
+    .price__product {
+        font-size: 14px;
+    }
+    .grid__conteiner__product{
+        grid-template-columns: 1fr;
+    }
+    .grid__conteiner__product__two{
+        grid-template-columns: 1fr;
+    }
+    .company__image {
+        max-width: 180px;
+    }
+    .season__2020_21__text{
+        font-size: 22px;
+    }
+    .view__collection {
+        padding: 8px 18px;
+        font-size: 10px;
+    }
+    .collection__2018__text {
+        font-size: 12px;
+        max-width: 310px;
+    }
+    .collection__2018__title {
+        font-size: 20px;
+    }
+    .collection__2018__title::before {
+        width: 70px;
+    }
+    .new__collection__text {
+        font-size: 22px;
+    }
+    .new__collection__text::before {
+        width: 70px;
+    }
+    .season__2020_21__text::before {
+        width: 70px;
+    }
+    .new__arrivals {
+        font-size: 20px;
+    }
+    .new__arrivals::before {
+        width: 70px;
+    }
+    .our__brands {
+        font-size: 22px;
+    }
+    .our__brands::before {
+        width: 70px;
+    }
+    .footer__container__block__one__contant {
+        margin: 0px 0px 0px 60px;
+    }
+    .container__about__the__store__text {
+        font-size: 12px;
+        max-width: 250px;
+    }
+    .mailing__list__text {
+        font-size: 12px;
+        max-width: 250px;
+    }
+    .subscribe__buttons {
+        font-size: 12px;
+    }
+    .your__mail__container {
+        max-width: 140px;
+    }
+    .your__mail {
+        font-size: 12px;
+        width: 140px;
+    }
+
+}
+
+@media (max-width: 350px){
+    .user__input {
+        width: 160px;
+        font-size: 14px;
+    }
+    .user__input__container::before {
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+        top: 10px;
+    }
+    .mail__input {
+        width: 160px;
+        font-size: 14px;
+    }
+    .mail__input__container::before {
+        content: "";
+        width: 20px;
+        height: 15px;
+        position: absolute;
+        background-size: 20px 15px;
+        top: 10px;
+    }
+    .password__input {
+        width: 160px;
+        font-size: 14px;
+    }
+    .password__input__container::before {
+        width: 20px;
+        height: 20px;
+        background-size: 20px 20px;
+        top: 10px;
+    }
+    .no__account__button{
+        font-size: 14px;
+    }
+    .authorization__button{
+        font-size: 18px;
+        padding: 6px 20px;
+    }
+    .there__is__an__account__button{
+        font-size: 14px;
+    }
+    .registration__button{
+        font-size: 18px;
+        padding: 6px 20px;
+    }
+}
